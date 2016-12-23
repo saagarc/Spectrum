@@ -18,10 +18,10 @@
 var app = angular.module("myApp", ["ngRoute"]);
 app.config(function($routeProvider) {
     $routeProvider
-    .when("/", {
+    .when("/#!/", {
         templateUrl : "main.htm"
     })
-    .when("/test", {
+    .when("/#!/test", {
         templateUrl : "test.htm"
     })
     .when("/green", {
